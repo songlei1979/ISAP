@@ -94,10 +94,10 @@ WSGI_APPLICATION = 'ISAP.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'zrakr591w5ektq87',
-        'USER': 'lyr7b46eg2opw51p',
-        'PASSWORD': 'kgdwd3e4l1tzixqy',
-        'HOST': 'd1kb8x1fu8rhcnej.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',   # Or an IP Address that your DB is hosted on
+        'NAME': 'vjfp59jtvg4eq2n7',
+        'USER': 'ddbd8f66eqk9sueu',
+        'PASSWORD': 'n06zjipmfvkneolw',
+        'HOST': 'w1h4cr5sb73o944p.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
