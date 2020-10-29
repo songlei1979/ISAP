@@ -5,7 +5,8 @@ from django.db import models
 class ServiceLevel(models.Model):
     servicelevelID = models.AutoField(primary_key=True)
     description = models.CharField(max_length=90, null=False, blank=False)
-    serviceDate = models.DateField(null=False, blank=False)
+    serviceRate = models.FloatField(validators=[MaxValueValidator(100), MinValueValidator(10)], null=True, blank=False)
+
 
 class Location(models.Model):
     locationID = models.AutoField(primary_key=True)
